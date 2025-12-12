@@ -61,18 +61,58 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.bt-title-main:hover {
   color: #404bbf;
 }
 
+.section-main {
+  background-color: #2e2f42;
+}
 .title-main {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700; /*Bold*/
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: #2e2f42;
+}
+
+.bt-title-main {
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.text {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.title {
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-second {
+  background-color: #f4f4fd;
+}
+
+.section-second-item,
+.section-third-item {
+  background-color: #ffffff;
 }
 
 /* Підвал сторінки */
