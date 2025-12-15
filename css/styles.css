@@ -58,11 +58,16 @@ a {
   color: #434455;
 }
 
-/* Ховер-ефекти для посилань та кнопки */
+/* Ховер-ефекти для посилань */
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
+.contacts-link:focus {
+color: #404bbf;
+background-color: transparent;
+}
+
+/* Ховер-ефект для кнопки у головній секції */
 .bt-title-main:hover,
 .bt-title-main:focus {
 background-color: #404bbf;
